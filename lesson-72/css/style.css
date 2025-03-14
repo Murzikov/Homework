@@ -1,0 +1,51 @@
+body {
+    background-color: #1a1a1c;
+    color: #fff;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quad {
+    border: 4px solid #383838;
+    background: #2f2f2f;
+    border-radius: 7%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8dff8d;
+    position: relative;
+}
+
+.text {
+    opacity: 0;
+    transition: opacity .3s 1s ease;
+}
+
+.line {
+    position: absolute;
+    border-radius: 100px;
+    top: -50%;
+    left: -300px;
+    height: 40px;
+    width: 0;
+    background: #413f3f;
+    transition: width 1s;
+}
+
+.quad:hover .line {
+    width: 900px;
+}
+
+.quad:hover span {
+    opacity: 1;
+}
+
+

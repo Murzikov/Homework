@@ -1,0 +1,32 @@
+body {
+    background: #262628;
+}
+
+.text {
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.quad {
+    width: 974px;
+    height: 100px;
+    border-radius: 15px;
+    background: #fffeeb;
+    position: fixed;
+    top: 849px;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #ff3c3c;
+    border-radius: 100%;
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+}
